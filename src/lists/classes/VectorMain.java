@@ -18,6 +18,7 @@ public class VectorMain {
 		employeeList.add(new Employee("John", "Doe", 4567));
 		employeeList.add(new Employee("Mary", "Smith", 22));
 		employeeList.add(new Employee("Mike", "Wilson", 3245));
+		employeeList.add(new Employee("Zac", "Jewitt", 7482));
 
 		System.out.println(employeeList.get(1));
 		System.out.println(employeeList.isEmpty());
@@ -33,6 +34,8 @@ public class VectorMain {
 		System.out.println(employeeList.contains(new Employee("Mary", "Smith", 22)));
 		System.out.println(employeeList.indexOf(new Employee("Mary", "Smith", 22)));
 		employeeList.remove(2);
+
+
 		employeeList.forEach(employee -> System.out.println(employee));
 	}
 
